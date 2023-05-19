@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Welcome to my blog"
+date:   2023-05-16 23:02:01 +0200
+---
+Welcome, dear readers!
+
+I'm thrilled to welcome you to my new blog for Ruby programmers. I'm **Bartłomiej Weber**, the owner of this blog and a coding enthusiast. I'm excited to share my knowledge, experience, and inspiration related to the Ruby language.
+
+Ruby is an incredible programming language that offers endless possibilities. Whether you're a beginner starting your Ruby journey or an experienced developer seeking new techniques and solutions, this blog is for you. You'll find practical tips, tutorials, code examples, and more.
+
+I encourage active participation through discussions and comments. Your feedback and suggestions are highly valued.
+
+Thank you for joining my blog. Together, we'll embark on an exciting journey through the Ruby landscape.
+
+Make sure to visit regularly as I have plenty of interesting content in store for you. If you have any questions, topic suggestions, or want to share your Ruby programming achievements, feel free to reach out.
+
+Thank you once again, and see you in the upcoming posts!
+
+Best regards,
+
+Bartłomiej Weber

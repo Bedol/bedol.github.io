@@ -60,7 +60,7 @@ end
 
 One could argue that each test should focus on one thing. However, when we need to check multiple values within a single object (indicating a more complex service or action), we would end up writing a substantial amount of code to verify all those values.
 
-Recently, I learned a clever trick that allows us to check multiple values within a single test (using a single expect statement).
+Recently, I learned a clever trick that allows us to check multiple values within a single test by using [Compound Expectations](https://rspec.info/features/3-12/rspec-expectations/compound-expectations/).
 
 ```ruby
 subject(:update_user) { user.update!(first_name: "Bob", last_name: "Doe") }

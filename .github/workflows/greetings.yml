@@ -1,21 +1,30 @@
 
 name: Greetings
 
-on: [pull_request, issues]
+on:
+  pull_request:
+    types:
+      - opened
+  issues:
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
 
 jobs:
   greeting:
+    name: Greet First-Time Contributors
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
+
     steps:
     - uses: actions/first-interaction@v3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: >-
+        issue_message: >-
           Thanks for submitting an issue! I'll check it at as soon as possible
           and get back to you.
-        pr-message: >-
+        pr_message: >-
           Thanks for submitting a PR. If the PR is a valid and passes
           all the checks , we will approve it soon. Have a great day !

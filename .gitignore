@@ -12,3 +12,7 @@ _site/
 .bundle
 .bundle/
 vendor/
+
+.cursor/
+CLAUDE.md
+AGENTS.md

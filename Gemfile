@@ -8,7 +8,7 @@ group :jekyll_plugins do
 end
 
 # Fix SCSS crashes: force old sassc converter instead of sass-embedded
-gem "jekyll-sass-converter", "~> 3.1"
+gem "jekyll-sass-converter", "~> 2.2"
 gem "sassc", "~> 2.4"
 
 # Windows support

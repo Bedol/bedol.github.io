@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bartłomiej Weber
-email: bartlomiej.weber@gmail.com
+email: bartlomiej.weber@bweber.dev
 description: >-
   Senior Ruby Developer specializing in building robust web applications.
   Open to contract work and consulting.
-linkedin_username: bweber-dev
+linkedin_username: bartlomiej-weber
 github_username: bedol
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

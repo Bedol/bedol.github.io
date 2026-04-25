@@ -55,7 +55,9 @@ Transform the existing Jekyll blog into a personal business card site focused on
 - **Icon**: Briefcase
 - **Title**: "Where I've Worked"
 - **Content**: Condensed timeline
-  - **Prowly** (2023–Present) - Ruby Developer
+  - **Semrush** (2026–Present) - Senior Backend Developer
+    - Media Database
+  - **Prowly** (2023–2026) - Ruby Developer
     - PR reporting area, email message delivery
   - **GetResponse** (2015–2023) - Junior → Ruby Developer
     - Payment processing, affiliate programs
@@ -66,7 +68,7 @@ Transform the existing Jekyll blog into a personal business card site focused on
 - **Icon**: Mail
 - **Title**: "Get In Touch"
 - **Content**:
-  - Email: bartlomiej.weber@gmail.com (clickable mailto)
+  - Email: bartlomiej.weber@bweber.dev (clickable mailto)
   - Subtext: "Open to contract work and consulting"
   - CTA button: "Email Me"
 

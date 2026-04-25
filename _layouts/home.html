@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include custom/header.html %}
+  <main id="main" role="main">
+    <section class="hero" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; text-align: center; padding: 2rem;">
+      <div class="hero-content">
+        <h1 class="hero-name">{{ site.title | escape }}</h1>
+        <p class="hero-tagline">Senior Ruby Developer | Building robust web applications since 2015</p>
+        <a href="mailto:{{ site.email }}" class="cta-button">Let's Talk</a>
+        <div class="social-icons">
+          {% include custom/social.html %}
+        </div>
+      </div>
+    </section>
+    <section class="cards-section">
+      <div class="cards-grid">
+        <div class="card">
+          <h2 class="card-title">What I Do</h2>
+          <div class="skill-tags">
+            <span class="skill-tag">Ruby</span>
+            <span class="skill-tag">Rails</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Sidekiq</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">AWS</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Where I've Worked</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-company">Semrush</span>
+              <span class="timeline-dates">2026–Present</span>
+              <span class="timeline-role">Senior Backend Developer, Media Database</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-company">Prowly</span>
+              <span class="timeline-dates">2023–2026</span>
+              <span class="timeline-role">Ruby Developer, PR reporting, email delivery</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-company">GetResponse</span>
+              <span class="timeline-dates">2015–2023</span>
+              <span class="timeline-role">Junior → Ruby Developer, Payment processing, affiliate programs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Get In Touch</h2>
+          <p class="contact-email">{{ site.email }}</p>
+          <p class="contact-subtext">Open to contract work and consulting</p>
+          <a href="mailto:{{ site.email }}" class="cta-button">Email Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

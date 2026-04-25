@@ -138,5 +138,3 @@ What would have taken days of back-and-forth was completed in a focused session 
 Opencode has become an integral part of my development toolkit. It's not about replacing developer expertise—it's about amplifying it. By handling routine tasks and providing intelligent suggestions, it frees up mental space for the complex problem-solving that makes software development interesting.
 
 If you're a Ruby developer looking to improve your workflow, I encourage you to give it a try. The learning curve is gentle, and the productivity gains are immediate.
-
-**Have you tried AI-assisted development tools?** I'd love to hear about your experiences in the comments.

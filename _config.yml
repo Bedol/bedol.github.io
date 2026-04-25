@@ -20,10 +20,11 @@
 
 title: Bartłomiej Weber
 email: bartlomiej.weber@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog for Ruby programmers! Join me on an exciting journey 
-  through the world of Ruby programming. Together, let's dive into the limitless
-  possibilities of software development in the Ruby ecosystem!
+description: >-
+  Senior Ruby Developer specializing in building robust web applications.
+  Open to contract work and consulting.
+linkedin_username: bweber-dev
+github_username: bedol
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

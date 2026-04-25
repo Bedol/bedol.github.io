@@ -27,14 +27,14 @@ body {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
   animation: fadeIn 1s ease-out;
 }
 
@@ -230,8 +230,8 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: auto;
-    padding: 6rem 1.5rem 4rem;
+    min-height: 50vh;
+    padding: 4rem 1.5rem;
   }
   
   .cards-section {

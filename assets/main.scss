@@ -300,6 +300,25 @@ body {
   line-height: 1.6;
 }
 
+/* About page styles */
+.about-content {
+  color: #495057;
+  line-height: 1.8;
+}
+
+.about-content p {
+  margin-bottom: 1.25rem;
+}
+
+.about-content a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.about-content a:hover {
+  text-decoration: underline;
+}
+
 /* Default layout header for non-hero pages */
 .default-header {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);

@@ -408,6 +408,179 @@ body {
   padding: 0;
 }
 
+/* Syntax Highlighting (Rouge) */
+.highlight {
+  background: #1e1e2e;
+  border-radius: 8px;
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.highlight pre {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.highlight code {
+  background: none;
+  padding: 0;
+  color: #cdd6f4;
+  font-family: 'Monaco', 'Consolas', 'Menlo', monospace;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* Line numbers */
+.highlight .lineno {
+  color: #6c7086;
+  padding-right: 1rem;
+  border-right: 1px solid #313244;
+  margin-right: 1rem;
+  user-select: none;
+}
+
+/* Comments */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cp,
+.highlight .cs {
+  color: #6c7086;
+  font-style: italic;
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #cba6f7;
+  font-weight: bold;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+  color: #a6e3a1;
+}
+
+/* Numbers */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #fab387;
+}
+
+/* Functions/Methods */
+.highlight .nf,
+.highlight .nb,
+.highlight .bp {
+  color: #89b4fa;
+}
+
+/* Classes */
+.highlight .nc,
+.highlight .nn {
+  color: #f9e2af;
+}
+
+/* Variables */
+.highlight .nv,
+.highlight .vi,
+.highlight .vg {
+  color: #f38ba8;
+}
+
+/* Operators */
+.highlight .o,
+.highlight .ow {
+  color: #89dceb;
+}
+
+/* Constants */
+.highlight .no {
+  color: #fab387;
+}
+
+/* Built-ins */
+.highlight .bp {
+  color: #89b4fa;
+}
+
+/* Namespaces */
+.highlight .kn {
+  color: #cba6f7;
+}
+
+/* Pseudo */
+.highlight .kp {
+  color: #cba6f7;
+}
+
+/* Tags (for HTML/XML) */
+.highlight .nt {
+  color: #f38ba8;
+}
+
+/* Attributes */
+.highlight .na {
+  color: #f9e2af;
+}
+
+/* Selectors */
+.highlight .nc,
+.highlight .nd {
+  color: #f9e2af;
+}
+
+/* Regex */
+.highlight .sr {
+  color: #f5c2e7;
+}
+
+/* Escape sequences */
+.highlight .se {
+  color: #f5c2e7;
+}
+
+/* Error */
+.highlight .err {
+  color: #f38ba8;
+  background: rgba(243, 139, 168, 0.1);
+}
+
+/* Generic */
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gd {
+  color: #f38ba8;
+}
+
+.highlight .gi {
+  color: #a6e3a1;
+}
+
 .post-content ul,
 .post-content ol {
   margin-bottom: 1.5rem;

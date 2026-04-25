@@ -19,11 +19,32 @@ body {
   z-index: 10;
 }
 
+.default-header {
+  position: fixed;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
 .site-title {
   font-size: 1.25rem;
   font-weight: 600;
   color: #fff;
   text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 .hero {
@@ -226,6 +247,67 @@ body {
 .contact-subtext {
   color: #868e96;
   margin-bottom: 1.5rem;
+}
+
+/* Blog page styles */
+.blog-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+}
+
+.blog-page h1 {
+  font-size: 2.5rem;
+  color: #1a1a2e;
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.post-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-title a {
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-title a:hover {
+  color: #e94560;
+}
+
+.post-date {
+  color: #868e96;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.post-excerpt {
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Default layout header for non-hero pages */
+.default-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 @media (max-width: 768px) {

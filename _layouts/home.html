@@ -8,8 +8,8 @@
       <div class="hero-content">
         <h1 class="hero-name">{{ site.title | escape }}</h1>
         <p class="hero-tagline">Senior Ruby Developer | Building robust web applications since 2015</p>
-        <a href="mailto:{{ site.email }}" class="cta-button">Let's Talk</a>
-        <div class="social-icons">
+        <div class="hero-actions">
+          <a href="mailto:{{ site.email }}" class="btn btn-primary">Let's Talk</a>
           {% include custom/social.html %}
         </div>
       </div>
@@ -54,11 +54,10 @@
           <h2 class="card-title">Get In Touch</h2>
           <p class="contact-email">{{ site.email }}</p>
           <p class="contact-subtext">Open to contract work and consulting</p>
-          <a href="mailto:{{ site.email }}" class="cta-button">Email Me</a>
+          <a href="mailto:{{ site.email }}" class="btn btn-secondary">Email Me</a>
         </div>
       </div>
     </section>
   </main>
-  {% include footer.html %}
 </body>
 </html>

@@ -81,34 +81,38 @@ body {
 .btn-primary {
   background: #e94560;
   color: #fff;
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(233, 69, 96, 0.4);
-  }
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.4);
 }
 
 .btn-secondary {
   background: transparent;
   color: #e94560;
   border: 2px solid #e94560;
-  &:hover {
-    background: #e94560;
-    color: #fff;
-  }
+}
+
+.btn-secondary:hover {
+  background: #e94560;
+  color: #fff;
 }
 
 .social-link {
   color: rgba(255, 255, 255, 0.7);
   transition: color 0.2s, transform 0.2s;
   display: inline-block;
-  &:hover {
-    color: #fff;
-    transform: scale(1.1);
-  }
-  svg {
-    width: 28px;
-    height: 28px;
-  }
+}
+
+.social-link:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.social-link svg {
+  width: 28px;
+  height: 28px;
 }
 
 .cards-section {
@@ -130,10 +134,11 @@ body {
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  }
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
 .card-icon {
@@ -163,10 +168,11 @@ body {
   font-size: 0.9rem;
   font-weight: 500;
   transition: background 0.2s, color 0.2s;
-  &:hover {
-    background: #e94560;
-    color: #fff;
-  }
+}
+
+.skill-tag:hover {
+  background: #e94560;
+  color: #fff;
 }
 
 .timeline {
@@ -206,11 +212,15 @@ body {
 .contact-email {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  a {
-    color: #e94560;
-    text-decoration: none;
-    &:hover { text-decoration: underline; }
-  }
+}
+
+.contact-email a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.contact-email a:hover {
+  text-decoration: underline;
 }
 
 .contact-subtext {

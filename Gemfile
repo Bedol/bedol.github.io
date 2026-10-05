@@ -4,7 +4,7 @@ gem "jekyll", "~> 4.4.1"
 gem "minima", "~> 2.5"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.18"
 end
 
 # Fix SCSS crashes: force old sassc converter instead of sass-embedded
